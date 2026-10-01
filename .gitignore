@@ -95,3 +95,16 @@ site/langs.js
 !.claude/skills/build-project/**
 site/projects-data.js
 site/project-content/
+
+#Model Checkpoints
+*.pt
+*.pth
+*.safetensors
+
+#Optional: common deep learning folders to ignore
+
+checkpoint/
+checkpoints/
+.ipynb_checkpoints/
+
+
